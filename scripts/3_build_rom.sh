@@ -37,7 +37,7 @@ pushd rom/ || exit
  
   echo "Initializing ROM repository into build area..."
   # sync rom sources into repo mirror
-  repo init -u https://github.com/GrapheneOS/platform_manifest.git -b "refs/tags/${GRAPHENE_RELEASE}" --depth=1 --git-lfs"
+  repo init -u https://github.com/GrapheneOS/platform_manifest.git -b "refs/tags/${GRAPHENE_RELEASE}" --depth=1 --git-lfs
   echo "Syncing ROM repository..."
   repo_sync_until_success
 
